@@ -60,13 +60,13 @@ Below is the architecture of Git:
 
 In the Git terminal, type in 
 
-```
+``` shell
 git init
 ```
 
 - Linux or MacOS: 
 
-```
+``` shell
 cd work_folder
 git init
 ```
@@ -91,19 +91,65 @@ As we mentioned before, Git enables teamwork. Git provides two mechanisms to syn
 
 Before you use these two commands, you need to tell which repository you want to synchronize with. This is done with using `git remote add origin <url>`. The **url** is the bridge to connect you with others. Normally you can go to the next chapter of [GitHub](#github) to know how to get this **url** easily.
 
+Let's say you want to `git push` a new file to this repository from your local repository. You can do as below:
 
+``` shell
+git remote add origin "https://github.com/mua-whu/How_to_Git"
+git pull origin master --allow-unrelated-histories  # download the remote repository
+git touch playground/MUA3.txt   # create a new file under 'playground'
+git add playground/MUA3.txt
+git commit -m "test upload MUA3 to How_to_git"
+git push origin master   # upload your local work to the remote repository
+```
+
+For the advanced features, you can learn how to use them [here][2].
 
 ## GitHub
 
-### What is GitHub
+[GitHub][3] is a big platform that provides hosting for software development version control using Git. As of May 2019, it has over 37 million users and more than 100 repositories, which makes it the largest host of source code in the world.
 
-### How to use GitHub
+## What is GitHub
 
-## Workflow of Git and GitHub
+![GitHub](img/gitHub.png)
 
-## Examples
+You can treat it like a cloud. It can work seamless with Git, therefore you can easily push and pull your project from the remote repository saved in GitHub.
 
-## References
+## How to use GitHub
 
-[1] https://www.quora.com/What-is-Git-and-why-should-I-use-it
-[2] https://www.liaoxuefeng.com/wiki/896043488029600
+Below are the steps about how to use GitHub [[4][4]]:
+
+*1. Create a GitHub account*
+
+This is very easy to do if you have your own email account. You can follow the instructions [here][5]. 
+
+*2. Create an empty repository*
+
+![New](img/GitHub_create_new_repo.png)
+
+Click the **New** and finish the settings, then you will have your first GitHub repository.
+
+*3. Make something for your repository*
+
+Since now, there are two ways to fill something inside your repository. GitHub webpage provide easily UI to edit files remotely. And if you want to push your work from local machine. You can follow the instructions in [How_to_use_Git](#how-to-use-git).
+
+*4. Clone and Fork other repository*
+
+```
+TODO
+```
+
+### Workflow GitHub
+
+Remember if you choose GitHub, all your work could be seen by others unless you choose private repository. Therefore, you need to be familiar how to work with others, either your teamates or other strangers. Go [here][6] for detailed instructions. 
+
+### Rules for GitHub
+
+1. Be sure you are not doing something illegal with using GitHub repository
+2. Fill in reasonable git commit messages for each commit to remind you or others of your changes
+
+[1]: https://www.quora.com/What-is-Git-and-why-should-I-use-it
+[2]: https://www.liaoxuefeng.com/wiki/896043488029600
+[3]: https://github.com/
+[4]: https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
+[5]: https://github.com/join
+[6]: https://www.liaoxuefeng.com/wiki/896043488029600/896954117292416
