@@ -14,7 +14,7 @@ Every version of your code or work is available to you. It's different than the 
 
 *2. Branches*
 
-[!Git_branch](img/git_branch.png)
+![Git_branch](img/git_branch.png)
 
 In Git repository, every change is organized as the time sequence. In some point, you may come up with new ideas to test. 
 
@@ -48,7 +48,7 @@ Some advanced Git operations are:
 
 Below is the architecture of Git:
 
-[!Git_workflow](img/git_operations.png)
+![Git_workflow](img/git_operations.png)
 
 *1. Initialize the Git repository*
 
@@ -56,7 +56,7 @@ Below is the architecture of Git:
 
 - Windows only: Go to your project folder. Right click and select 'Git Bash here'. This will activate the Git terminal for you.
 
-[!Git_Bash](img/Git_Bash_windows.png)
+![Git_Bash](img/Git_Bash_windows.png)
 
 In the Git terminal, type in 
 
@@ -79,11 +79,11 @@ After you intialize the Git repository, Git will detect any your changes inside 
 
 Let's say it's an empty work directory before, and now you create two files: **MUA1.txt** and **MUA2.txt**.
 
-[!git_status](img/git_status.png)
+![git_status](img/git_status.png)
 
 Right now, you still didn't tell Git to record your changes. In order to do that, you need two steps: `git add MUA1.txt MUA2.txt` and `git commit -m "add MUA1 and MUA2"`. The first command will tell git to remember the changes and the second command will tell git to put a group of changes into the branch. One git commit can contain a lot of changes, which you will do during a couple of days. After the commit, the changes are fixed and they can be rolled back according to commit number.
 
-[!git_add](img/git_add.png)
+![git_add](img/git_add.png)
 
 *3. pull from and push to remote git repository*
 
