@@ -92,11 +92,43 @@ Create the `New pull request` in your GitHub repository and then click the `Comp
 <br>
 <b>Push PR to upstream repository</b>
 
-After you create the PR, the manager of the upstream will receive your changes, and then give code review, and decide whether to incorporate your changes.
+After you create the PR, the manager of the upstream repository will receive your changes, and then give code review, and decide whether to incorporate your changes.
+
+If the code need to be fixed, you can modify your local repository according to the `review` report from the manager. After you fix the code, run the commands below to adapt your changes.
+
+```bash
+git add *
+git commit --amend
+git push -f origin [your-branch]
+```
+
+> If there are conflicts in between, go [here](#resolve-conflicts) for more instructions.
+
+## Cleanup
+
+```bash
+git checkout master -f   # checkout to 'master' branch
+git pull -ff upstream master   # sync with upstream repository
+git branch -D [your-branch]   # delete your local branch
+git push origin --delete [your-branch]   # delete your remote GitHub branch
+```
 
 ## Resolve conflicts
 
-## Cleanup
+```bash
+git fetch upstream   # sync with upstream repository
+git rebase upstream/master
+```
+
+Fix the conflicts with the prompts from Git, then commit again
+
+```bash
+git add my-fix-file
+git rebase --continue
+git push -f origin [your-branch]
+```
+
+After you commit, repeat the [PR](#create-a-pull-request) session again.
 
 [1]: https://github.com/ZPYin/How_to_Git
 [2]: https://git-scm.com/
