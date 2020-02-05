@@ -42,7 +42,7 @@ git checkout -b [your-branch]
 After you finish your development, commit and submit your changes to your GitHub repository.
 
 ```bash
-git add *   # stage your changes
+git add .   # stage your changes
 git commit   # commit your changes
 ```
 
@@ -97,7 +97,7 @@ After you create the PR, the manager of the upstream repository will receive you
 If the code need to be fixed, you can modify your local repository according to the `review` report from the manager. After you fix the code, run the commands below to adapt your changes.
 
 ```bash
-git add *
+git add .
 git commit --amend
 git push -f origin [your-branch]
 ```
