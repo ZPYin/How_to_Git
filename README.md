@@ -1,7 +1,5 @@
 # Quick start to Git and GitHub for Managing Your Research
 
-## Git
-
 [Git](https://git-scm.com/?source=post_page---------------------------) is a free and open source distributed vesion control system (VCS), which allows you to backup your file changes and track those changes in case you screw up something. It's by far the most popular VCS both for individual and company use. 
 
 ## Why we choose Git
