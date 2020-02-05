@@ -94,7 +94,7 @@ Before you use these two commands, you need to tell which repository you want to
 Let's say you want to `git push` a new file to this repository from your local repository. You can do as below:
 
 ``` shell
-git remote add origin "https://github.com/mua-whu/How_to_Git"
+git remote add origin "git@github.com:ZPYin/How_to_Git.git"
 git pull origin master --allow-unrelated-histories  # download the remote repository
 git touch playground/MUA3.txt   # create a new file under 'playground'
 git add playground/MUA3.txt
