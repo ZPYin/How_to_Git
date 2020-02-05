@@ -1,10 +1,10 @@
 # Quick start to Git and GitHub for Managing Your Research
 
-[Git](https://git-scm.com/?source=post_page---------------------------) is a free and open source distributed vesion control system (VCS), which allows you to backup your file changes and track those changes in case you screw up something. It's by far the most popular VCS both for individual and company use. 
+[Git](#7) is a free and open source distributed version control system (VCS), which allows you to backup your file changes and track those changes in case you screw up something. It's by far the most popular VCS both for individual and company use. 
 
 ## Why we choose Git
 
-Here are [seven reasons](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa) that you should be using **Git**.
+Here are [seven reasons](#8) that you should be using **Git**.
 
 *1. Version Control*
 
@@ -16,7 +16,7 @@ Every version of your code or work is available to you. It's different than the 
 
 In Git repository, every change is organized as the time sequence. In some point, you may come up with new ideas to test. 
 
-For instance, you want to build a **Rotational-Raman lidar**. In the beginning, you may think about applying the double-grating to extract the Rotation-Raman signal. But when you finish all the lidar hardware and try to install the double-grating, you may think what about using Narrowband IFs (Feature one) or Etalons (Feature two). Then at this point, you can setup new branches to really try those nice ideas without influencing the original plan (master). 
+For instance, you want to build a **Rotational-Raman lidar**. In the beginning, you may think about applying the double-grating to extract the Rotation-Raman signal. But when you finish all the lidar hardware and try to install the double-grating, you may think what about using Narrow-band IFs (Feature one) or Etalons (Feature two). Then at this point, you can setup new branches to really try those nice ideas without influencing the original plan (master). 
 
 Git will allow you to create branches at any point and you can also track the changes at each branch, and roll back if you found this idea is like shit.
 
@@ -28,7 +28,7 @@ Git simplifies the process of working with other people and makes it really easy
 
 ## How to use Git
 
-First of all, if you don't install `Git`, you need to download it, which you can follow the instructions in [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+First of all, if you don't install `Git`, you need to download it, which you can follow the instructions in [here](#9).
 
 The basic operations in Git are: 
 
@@ -73,7 +73,7 @@ git init
 
 *2. add and commit your changes to Git*
 
-After you intialize the Git repository, Git will detect any your changes inside the work directory. You can use `git status` to see your changes. 
+After you initialize the Git repository, Git will detect any your changes inside the work directory. You can use `git status` to see your changes. 
 
 Let's say it's an empty work directory before, and now you create two files: **MUA1.txt** and **MUA2.txt**.
 
@@ -138,7 +138,7 @@ TODO
 
 ### Workflow GitHub
 
-Remember if you choose GitHub, all your work could be seen by others unless you choose private repository. Therefore, you need to be familiar how to work with others, either your teamates or other strangers. Go [here][6] for detailed instructions. 
+Remember if you choose GitHub, all your work could be seen by others unless you choose private repository. Therefore, you need to be familiar how to work with others, either your teammates or other strangers. Go [here][6] for detailed instructions. 
 
 ### Rules for GitHub
 
@@ -151,3 +151,6 @@ Remember if you choose GitHub, all your work could be seen by others unless you 
 [4]: https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
 [5]: https://github.com/join
 [6]: https://www.liaoxuefeng.com/wiki/896043488029600/896954117292416
+[7]: https://git-scm.com/?source=post_page---------------------------
+[8]: https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa
+[9]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git

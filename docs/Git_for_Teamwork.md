@@ -28,7 +28,7 @@ The new commit and message will appear on GitHub the next time you push.
 
 If you have already pushed the commit to GitHub, you will have to force push a commit with an amended message
 
-> We strongly discourage force pushing, since this changes the history of your repository. If you force push, people who have already cloned your repository will have to manually fix their local history. For more infromation, see [Recovering from upstream rebase](https://git-scm.com/docs/git-rebase#_recovering_from_upstream_rebase) in the Git manual.
+> We strongly discourage force pushing, since this changes the history of your repository. If you force push, people who have already cloned your repository will have to manually fix their local history. For more information, see [Recovering from upstream rebase](https://git-scm.com/docs/git-rebase#_recovering_from_upstream_rebase) in the Git manual.
 
 ### Amending the message of the most recently pushed commit
 
