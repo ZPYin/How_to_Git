@@ -4,14 +4,14 @@ This doc will guide you through a typical workflow of contributing to a GitHub r
 
 ## Fork the repository
 
-Visit your interested [repo](#1) in GitHub, and click the `fork` as below:
+Visit your interested [repo][1] in GitHub, and click the `fork` as below:
 
 <p align='center'>
 <img src='../img/GitHub_fork.png', width=550, height=250, lat='GitHub-fork'>
 <br>
 <b>Fork a GitHub repository</b>
 
-> Note: the following commands are supposed to be done in command line, in which [Git](#2) is needed.
+> Note: the following commands are supposed to be done in command line, in which [Git][2] is needed.
 
 ## Clone the repository
 

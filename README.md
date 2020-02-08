@@ -1,10 +1,10 @@
 # Quick start to Git and GitHub for Managing Your Research
 
-[Git](#7) is a free and open source distributed version control system (VCS), which allows you to backup your file changes and track those changes in case you screw up something. It's by far the most popular VCS both for individual and company use. 
+[Git][7] is a free and open source distributed version control system (VCS), which allows you to backup your file changes and track those changes in case you screw up something. It's by far the most popular VCS both for individual and company use. 
 
 ## Why we choose Git
 
-Here are [seven reasons](#8) that you should be using **Git**.
+Here are [seven reasons][8] that you should be using **Git**.
 
 *1. Version Control*
 
@@ -28,7 +28,7 @@ Git simplifies the process of working with other people and makes it really easy
 
 ## How to use Git
 
-First of all, if you don't install `Git`, you need to download it, which you can follow the instructions in [here](#9).
+First of all, if you don't install `Git`, you need to download it, which you can follow the instructions in [here][9].
 
 The basic operations in Git are: 
 
